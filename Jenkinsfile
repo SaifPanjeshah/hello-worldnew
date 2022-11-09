@@ -6,7 +6,7 @@ pipeline{
                 git 'https://github.com/RutujaPawal/hello-worldnew.git'
             }
         }
-        stage("Build Maven Project"){
+        stage("Build Maven Project 2"){
             steps{
                 sh "mvn clean install"
             }
